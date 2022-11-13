@@ -1,0 +1,405 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/montserrat-v25-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v25-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-500 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/montserrat-v25-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v25-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+body{
+  margin: 0;
+  font-size: 18px;
+}
+
+
+.foto {
+  background-image: url(/img/imgBackground\ 1.jpg);
+  height: 962px;
+  width: 1920px;
+  background-size: cover;
+
+  /* header style start */
+}
+.header{
+  display: flex;
+  width: 1770px;
+  justify-content: space-between;
+  height: 110px;
+  margin-bottom: 20px;
+}
+.header_logo{
+  position: absolute;
+  width: 160px;
+  height: 21px;
+  left: 120px;
+  top: 25px;
+}
+
+.header_active{
+  background: #0e1d28;
+}
+
+.header_wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 60PX;
+  left: 1920px;
+}
+.header_nav{
+  position: relative;
+  left: 1463px; 
+}
+.header_list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.header_item{
+margin-right: 100px;
+}
+.header_item:last-child{
+  margin-right: 0;
+}
+
+.header_link {
+  font-weight: 500;
+  font-family: 'montserrat';
+  position: absolute;
+  font-size: 15px;
+  line-height: 18px;
+  color: white;
+  text-decoration: none;
+}
+.header_link:hover, .header_link:focus, .header_link:active{
+  opacity: .65;
+}
+/* header style end */
+
+/* intro style start */
+
+.intro_title {
+  position: absolute;
+  top: 220px;
+  font-size: 70px;
+  height: 187px;
+  width: 621px;
+  color: #fff;
+  left: 123px;
+  
+}
+.intro_subtitle{
+  position: absolute;
+  top: 454px;
+  size: 25px;
+  width: 340px;
+  height: 45px;
+  left: 123px;
+  color: #fff;
+  line-height: 45px;
+}
+.search-form_submit{
+  position: absolute;
+  top: 607px;
+  left: 120px;
+  height: 75px;
+width: 307px;
+border-radius: 38px;
+background: #3CDCFF;
+}
+  
+
+/* intro style end */
+
+/* places style stsrt */
+
+.places_time{
+  height: 27px;
+  width: 63px;
+  top: 29px;
+  font-size: 23px;
+  line-height: 29px;
+  color: #fff;
+  position: absolute;
+  left: 60px;
+}
+.places_foto{
+  background-image: url(../img/foto.jpg);
+  width: 828px;
+  height: 474px;
+  left: 265px;
+  position: absolute;
+  top: 1129px;
+}
+
+.places_month{
+  height: 27px;
+  width: 63px;
+  top: 53px;
+  left: 60px;
+  color: #fff;
+  position: absolute;
+}
+.places_place{
+  color: #fff;
+  position: absolute;
+  height: 59px;
+  width: 199px;
+  top: 370px;
+  left: 60px;
+}
+
+.places_text{
+  position: absolute;
+  color: #030000;
+  height: 123px;
+  width: 417px;
+  left: 1193px;
+  top: 1170px;
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 55px;
+}
+
+.places_text_2{
+  position: absolute;
+  color: #030000;
+  height: 114px;
+width: 390px;
+left: 1193px;
+top: 1333px;
+line-height: 30px;
+}
+
+.search-form_submit2{
+  position: absolute;
+  top: 1470px;
+  left: 1193px;
+  height: 75px;
+width: 271px;
+border-radius: 38px;
+background-color: #fff;
+color: #3CDCFF;
+border: 2px solid #3CDCFF;
+}
+
+
+/* places style end */
+.mon_foto{
+background-image: url(../img/imgForm\ 1.jpg);
+position: absolute;
+height: 518px;
+width: 1920px;
+left: 0px;
+top: 1763px;
+border-radius: 0px;
+}
+.man_text{
+  position: absolute;
+  height: 192px;
+width: 367px;
+left: 829px;
+top: 77px;
+font-size: 42px;
+font-weight: 800;
+line-height: 65px;
+}
+
+.man_text-2{
+  position: absolute;
+  height: 71px;
+width: 195px;
+left: 829px;
+top: 299px;
+line-height: 30px;
+font-weight: 800;
+}
+
+.search-form_submit3{
+  position: absolute;
+  top: 102px;
+  left: 1253px;
+  height: 67px;
+width: 284px;
+border-radius: 38px;
+background-color: #fff;
+color: #9CB7CA;
+border: 2px solid #9CB7CA;
+}
+
+.search-form_submit4{
+  position: absolute;
+  top: 189px;
+  left: 1253px;
+  height: 67px;
+width: 284px;
+border-radius: 38px;
+background-color: #fff;
+color: #9CB7CA;
+border: 2px solid #9CB7CA;
+}
+.search-form_submit5{
+  position: absolute;
+  top: 281px;
+  left: 1253px;
+  height: 67px;
+width: 284px;
+border-radius: 38px;
+background: #3CDCFF;
+border: 2px solid #3CDCFF
+}
+.man_agreement{
+  position:absolute;
+  height: 35px;
+width: 212px;
+left: 1290px;
+top: 358px;
+font-size: 13px;
+}
+.places_foto-2{
+  background-image: url(../img/imgHawaii\ 1.jpg);
+  height: 474px;
+width: 819px;
+left: 838px;
+top: 2441px;
+border-radius: 16px;
+position: absolute;
+}
+.review{
+  position: absolute;
+  height: 27px;
+width: 78.21392822265625px;
+left: 59px;
+top: 29px;
+color: #fff;
+}
+.elena{
+  font-family: 'montserrat';
+  height: 27px;
+width: 133.65672302246094px;
+left: 59px;
+top: 63px;
+color: #fff;
+position: absolute;
+}
+
+.elena_text{
+  position: absolute;
+  height: 59px;
+width: 333.6467590332031px;
+left: 59px;
+top: 380px;
+color: #fff;
+}
+.elena_text2{
+  position: absolute;
+  height: 123px;
+width: 474.23382568359375px;
+left: 265px;
+top: 2463px;
+color: #030000;
+font-weight: 800;
+font-size: 42px;
+line-height: 55px;
+}
+.elena_text3{
+  position: absolute;
+  height: 114px;
+width: 394.039794921875px;
+left: 265px;
+top: 2616px;
+color: #030000;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.search-form_submit6{
+  position: absolute;
+  top: 2761px;
+  left: 265px;
+  height: 75px;
+width: 268px;
+border-radius: 38px;
+background-color: #fff;
+color: #3CDCFF;
+border: 2px solid #3CDCFF;
+}
+
+.header_logo2{
+  position: absolute;
+  height: 35px;
+width: 160px;
+left: 118px;
+top: 3153px;
+border-radius: 0px;
+}
+
+.footer{
+  position: absolute;
+  background-color: #F1F2F6;
+height: 180px;
+left: -2px;
+width: 1920px;
+top: 3000px;
+}
+.footer_logo{
+  position: absolute;
+  height: 35px;
+width: 160px;
+left: 118px;
+top: 78px;
+}
+.footer_text{
+  position: absolute;
+  height: 40px;
+width: 182px;
+left: 401px;
+top: 73px;
+}
+.footer_text2{
+  position: absolute;
+  height: 40px;
+width: 200px;
+left: 685px;
+top: 73px;
+}
+.footer_wk{
+  position: absolute;
+  height: 17.69230842590332px;
+width: 29.574256896972656px;
+left: 1594px;
+top: 87px;
+}
+.footer_yo{
+  height: 20px;
+  width: 28.554454803466797px;
+  left: 1656.24755859375px;
+  top: 87px;
+  position: absolute;  
+}
+.footer_vc{
+  height: 15.74354076385498px;
+  width: 25.1192684173584px;
+  left: 1722px;
+  top: 87px;
+position: absolute;  
+}
+.footer_fc{
+  height: 19.23076820373535px;
+width: 16.87152671813965px;
+left: 1782px;
+top: 87px;
+position: absolute;
+}
